@@ -1,0 +1,22 @@
+# This project was generated with 0.3.19 using template: https://github.com/beeware/briefcase-template@v0.3.19
+[tool.briefcase]
+project_name = "HelloGTK"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/hellogtk"
+license.file = "LICENSE"
+author = "J C"
+author_email = "j@example.com"
+
+[tool.briefcase.app.hellogtk]
+formal_name = "HelloGTK"
+description = "Will py gtk work with briefcase?"
+long_description = """More details about the app should go here.
+"""
+sources = [
+    "src/hellogtk",
+]
+test_sources = [
+    "tests",
+]
+
